@@ -31,10 +31,7 @@ body{
 }
 .aheader{
     text-decoration: none;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 20px;
     font-family: 'Poppins', sans-serif;
     font-size: 2    6px;
     color: #666565;
@@ -115,8 +112,6 @@ h3{
     font-weight: 500;
     font-size: 55px;
     letter-spacing: 0.095em;
-   
-
     color: #777777;
 
 }
@@ -257,7 +252,8 @@ model-viewer{
 
 .frame{
     position: absolute;
-    top: -30;
+    top: -40;
+    height: 55px;
 }
 
 
@@ -308,7 +304,6 @@ model-viewer{
 /* ///////////////////////////////////////////////////// */
 
 .container {
-    margin-top: 150px;
     display: flex;
     justify-content: space-around;
   }
@@ -405,3 +400,11 @@ model-viewer{
     stroke-dashoffset: 100;
     transition: 0.4s ease-out;
   }
+
+.works{
+margin-top: 50px;
+font-family: 'Poppins', sans-serif;
+font-size: 160px;
+letter-spacing: 0.095em;
+color: #bdbdbdb9;
+}
